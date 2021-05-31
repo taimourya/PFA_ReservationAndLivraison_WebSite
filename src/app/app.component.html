@@ -1,0 +1,54 @@
+
+
+<header class="cd-auto-hide-header">
+  <div class="logo">
+    <a routerLink="">
+      <img src="assets\img\logo.png" style="height: 70px;">
+    </a>
+  </div>
+
+    <nav class="cd-primary-nav">
+        <ul id="cd-navigation">
+            <li>
+                <a routerLink="" routerLinkActive="active">Home</a></li>
+            <li>
+                <a routerLink="about" routerLinkActive="active">A propos</a>
+            </li>
+            <li>
+                <a routerLink="contact" routerLinkActive="active">Contact</a>
+            </li>
+            <li>
+                <a routerLink="collaborez" routerLinkActive="active">Collabarez avec nous</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section class="cd-hero">
+	<div class="cd-hero-content">
+		<!-- <h1 class="text-white font-weight-bold" style="font-size: 50px;">Welcome to our website</h1> -->
+	</div>
+</section>
+
+<nav class="cd-secondary-nav mb-4" style="margin-top: 0;">
+	<ul>
+      <li>
+          <a routerLink="" routerLinkActive="active">Home</a></li>
+      <li>
+          <a routerLink="about" routerLinkActive="active">A propos</a>
+      </li>
+      <li>
+          <a routerLink="contact" routerLinkActive="active">Contact</a>
+      </li>
+      <li>
+          <a routerLink="collaborez" routerLinkActive="active">Collabarez avec nous</a>
+      </li>
+	</ul>
+</nav>
+
+<div class="container">
+      <router-outlet></router-outlet>
+</div>
+
+
+<app-footer></app-footer>

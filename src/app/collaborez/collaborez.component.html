@@ -1,0 +1,34 @@
+
+
+<h1 class="text-center font-weight-bold mt-5">Nos collaborateurs</h1>
+<hr style="width: 20%; background: red">
+
+
+<div class="mt-5">
+
+    <h4>Nos collaborateurs</h4>
+    <ul *ngFor="let r of restaurants" class="list-group">
+        <app-collaborateur [name]="r.name"></app-collaborateur>
+    </ul>
+
+    <hr>
+    <section id="services" class="bg-light pt-100 pb-70">
+        <div class="container">
+           <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <h2 class="title"><span>Rejoignez</span> Nous et devenez un de nos collaborateurs</h2>
+                    <p class=" mt-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+                    <a routerLink="/contact" class="btn btn-primary my-5">Nous contactez</a>
+                </div>
+                
+                <div class="col-lg-7">
+                    <app-collabarez-info></app-collabarez-info>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+</div>
